@@ -16,6 +16,6 @@ Where would you like to go?"
 
 index = input_to_array(input)
 
-move(board, index, player="X")
+move(board, index, player = "X")
 
 display_board(board)

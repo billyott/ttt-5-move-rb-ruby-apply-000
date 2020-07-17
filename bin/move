@@ -14,7 +14,7 @@ input = gets.strip
 
 puts "Where would you like to go?"
 
-index = input_to_array(input)
+index = input_to_index(input)
 
 move(board, index, player = "X")
 

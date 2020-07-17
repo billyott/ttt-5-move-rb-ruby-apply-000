@@ -18,4 +18,4 @@ index = input_to_array(input)
 
 move(board, index, player="X")
 
-display_board(
+display_board(board)
